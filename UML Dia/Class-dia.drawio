@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="TWX0GiAN4o8BfM0cLnyp">
+    <mxGraphModel dx="1670" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-1" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="70" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-2" value="+ studentID: String&lt;div&gt;+ name: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ email: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ documents: List&amp;lt;Document&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ paymentStatus: Boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-1">
+          <mxGeometry y="26" width="200" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-1">
+          <mxGeometry y="110" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-4" value="+ uploadDocument(doc:Document)&lt;div&gt;+ makePayment():List&amp;lt;Document&amp;gt;&lt;/div&gt;&lt;div&gt;+ collectDocument(doc:Document)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-1">
+          <mxGeometry y="118" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-5" value="Vendor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="75" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-6" value="+ vendorID: String&lt;div&gt;+ shopName: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ printQueue: List&amp;lt;PrintJob&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ printers: List&amp;lt;Printer&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-5">
+          <mxGeometry y="26" width="250" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-5">
+          <mxGeometry y="90" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-8" value="&lt;div&gt;&lt;div&gt;+approvePrintJob(job: PrintJob)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+rejectPrintJob(job: PrintJob)&lt;/div&gt;&lt;div&gt;+monitorPrinterStatus(): List&amp;lt;PrinterStatus&amp;gt;&lt;/div&gt;&lt;div&gt;+fetchDocuments(): List&amp;lt;Document&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-5">
+          <mxGeometry y="98" width="250" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-9" value="Document" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="60" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-10" value="+ documentID: String&lt;div&gt;+ fileName: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ fileSize: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ fileType: String&lt;/div&gt;&lt;div&gt;+ uploadDate: Date&lt;/div&gt;&lt;div&gt;+ printPreference: P&lt;span style=&quot;background-color: initial;&quot;&gt;rintPreferences&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-9">
+          <mxGeometry y="26" width="260" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-9">
+          <mxGeometry y="120" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-12" value="&lt;div&gt;&lt;div&gt;+ verifyFileFormat(): Boolean&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ previewDocument()&lt;/div&gt;&lt;div&gt;+&amp;nbsp;setPrintPreferences(prefs: PrintPreferences)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-9">
+          <mxGeometry y="128" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-13" value="PrintJob" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="300" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-14" value="+ jobID: String&lt;div&gt;+ document: D&lt;span style=&quot;background-color: initial;&quot;&gt;ocument&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ student: Student&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ status: String&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-13">
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-13">
+          <mxGeometry y="90" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-16" value="&lt;div&gt;&lt;div&gt;+ updateStatus(newStatus: String)&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-13">
+          <mxGeometry y="98" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-17" value="Printer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="290" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-18" value="+ printerID: String&lt;div&gt;+ printerModel: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ status: PrintingStatus&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-17">
+          <mxGeometry y="26" width="230" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-17">
+          <mxGeometry y="80" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-20" value="+ printDocument(doc: Document)&lt;div&gt;+ checkPrinterStatus(): PrinterStatus&lt;/div&gt;&lt;div&gt;+ notifyIssues(issue: String)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-17">
+          <mxGeometry y="88" width="230" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-21" value="PaymentGateway" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="500" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-22" value="+ gatewayID: String&lt;div&gt;+ supportedPaymentMethods: List&amp;lt;String&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-21">
+          <mxGeometry y="26" width="290" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-21">
+          <mxGeometry y="60" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-24" value="&lt;div&gt;&lt;div&gt;+ processPayment(paymentInfo: Payment): Boolean&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ verifyTransaction(transactionID: String): Boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-21">
+          <mxGeometry y="68" width="290" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-25" value="PrinterPreferences" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="585" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-26" value="+ color: Boolean&lt;div&gt;+ duplex: Boolean&lt;/div&gt;&lt;div&gt;+ paperSize: String&lt;/div&gt;&lt;div&gt;+ numberOfCopies: Integer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-25">
+          <mxGeometry y="26" width="470" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-25">
+          <mxGeometry y="90" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-28" value="&lt;div&gt;&lt;div&gt;+&amp;nbsp;setPreferences(color: Boolean, duplex: Boolean, paperSize: String, copies: Integer)&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-25">
+          <mxGeometry y="98" width="470" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-29" value="PrinterSpoolerAPI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="300" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-30" value="+ spoolerID: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-29">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-29">
+          <mxGeometry y="50" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-32" value="+ managePrintQueue(job PrintJob)&lt;div&gt;+ communicateWithPrinter(printer: Printer)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-29">
+          <mxGeometry y="58" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-33" value="Cloudinary" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-34" value="+ databaseURL:&amp;nbsp; String&lt;div&gt;+ documentStore: List&amp;lt;Document&amp;gt;&lt;/div&gt;&lt;div&gt;+ printJobStore: List&amp;lt;PrintJob&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-33">
+          <mxGeometry y="26" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-33">
+          <mxGeometry y="80" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4VyI3I7zP8Ydm9fl96GY-36" value="&lt;div&gt;&lt;div&gt;+ storeDocument(doc: Document)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ deleteDocument(doc: Document)&lt;/div&gt;&lt;div&gt;+ retrieveDocument(DocID: String): Document&lt;/div&gt;&lt;div&gt;+ storePrintJob(job: PrintJob)&lt;/div&gt;&lt;div&gt;+ retrievePrintJob(jobID: String) : PrintJob&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4VyI3I7zP8Ydm9fl96GY-33">
+          <mxGeometry y="88" width="260" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

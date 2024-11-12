@@ -1,0 +1,208 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram id="fqP70YbZnSxa9eLgvmIx" name="Page-1">
+    <mxGraphModel dx="956" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mncK99tn1smM3ANZp3Ur-1" value="Student" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="224" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-2" value="Cloudinary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="224" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-4" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;1: Store Document&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="214" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-1" target="mncK99tn1smM3ANZp3Ur-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="354" as="sourcePoint" />
+            <mxPoint x="740" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="254" as="sourcePoint" />
+            <mxPoint x="510" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="234" as="sourcePoint" />
+            <mxPoint x="610" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-9" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;2: Confirms Storage&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="239" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-10" value="Document" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="354" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-10" target="mncK99tn1smM3ANZp3Ur-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="364" as="sourcePoint" />
+            <mxPoint x="740" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-12" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;3: Set Printer Preferences&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="294" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="334" as="sourcePoint" />
+            <mxPoint x="460" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-14" value="Payment Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="224" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-14" target="mncK99tn1smM3ANZp3Ur-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="324" as="sourcePoint" />
+            <mxPoint x="530" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="253.71" as="sourcePoint" />
+            <mxPoint x="360" y="253.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="228.71" as="sourcePoint" />
+            <mxPoint x="430" y="228.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-19" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;4: Process Payment&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="244" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-20" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;5: Payment Confirmation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357" y="212" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-21" value="Vendor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="114" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-1" target="mncK99tn1smM3ANZp3Ur-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="224" as="sourcePoint" />
+            <mxPoint x="530" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="174" as="sourcePoint" />
+            <mxPoint x="480" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-24" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;6: Request To create PrintJob&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="174" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-25" value="PrintJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="114" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-21" target="mncK99tn1smM3ANZp3Ur-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="214" as="sourcePoint" />
+            <mxPoint x="640" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="124" as="sourcePoint" />
+            <mxPoint x="610" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="144" as="sourcePoint" />
+            <mxPoint x="510" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-29" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;7: Create PrintJob&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="104" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-30" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;8: Approve PrintJob&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="127" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;PrinterSpoolerAPI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="114" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-21" target="mncK99tn1smM3ANZp3Ur-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="214" as="sourcePoint" />
+            <mxPoint x="390" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-33" value="Printer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="224" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="144" as="sourcePoint" />
+            <mxPoint x="360" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-35" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;9: Add printJob to Print queue&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372" y="130" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-33" target="mncK99tn1smM3ANZp3Ur-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="144" as="sourcePoint" />
+            <mxPoint x="370" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="204" as="sourcePoint" />
+            <mxPoint x="170" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-39" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;10: Send PrintJob to Printer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="164" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mncK99tn1smM3ANZp3Ur-33" target="mncK99tn1smM3ANZp3Ur-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="234" as="sourcePoint" />
+            <mxPoint x="290" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="mncK99tn1smM3ANZp3Ur-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="374" as="sourcePoint" />
+            <mxPoint x="391" y="383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-42" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;11: Prints the document&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="354" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="164" as="sourcePoint" />
+            <mxPoint x="280" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-44" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;12: Notifies that Job is complete&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241" y="166" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="118.71000000000001" as="sourcePoint" />
+            <mxPoint x="430" y="118.71000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-46" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;13: Informs that job is Ready&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358" y="100" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="204" as="sourcePoint" />
+            <mxPoint x="460" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mncK99tn1smM3ANZp3Ur-48" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;14: Notifies student that Document is printed&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="58" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
